@@ -10,11 +10,24 @@
     width: 100%;
     height: 10%;
     top: 0px;
-    left: 800px;
+    left: 850px;
     position: absolute;
     background-color: white;
     margin-right: 400px;
-    padding-bottom: 300px;
+    padding-bottom: 100px;
+    }
+    .ser{
+        float: left;
+        width: 22%;
+        padding: 13px;
+        height: 300px;
+
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
     }
     </style>
 </head>
@@ -23,5 +36,32 @@
         <img style="height:90px; padding-left: 50px;" src="/static/lawlogo.png">
         <h1 >LawFirmSite</h1>
     </header>
+
+    <br><br><br><br><br><br><br><br><br><br><br>
+<div>
+    <h1 style="font-size: 35px; text-align: center;">Our Services</h1>
+
+    <div class="row">
+        <div class="ser" >
+          <h2>Dispute Resolution</h2>
+          <img style="width: 450px; height: 300px" src="/static/dispute_resolution.jpg">
+        </div>
+        <div class="ser" >
+          <h2>Private</h2>
+          <img style="width: 450px; height: 300px" src="/static/private.jpg">
+        </div>
+        <div class="ser">
+          <h2>Corporate</h2>
+          <img style="width: 450px; height: 300px" src="/static/coporate.jpg">
+        </div>
+        <div class="ser">
+            <h2>Government Affairs</h2>
+            <img style="width: 450px; height: 300px" src="/static/government_affairs.jpg">
+          </div>
+      </div>
+
+</div>
+
+<br><br><br><br><br><br><br><br>
 </body>
 </html>
